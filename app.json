@@ -11,11 +11,21 @@
     "properties": {
       "version": "1.0.0-SNAPSHOT"
     },
-    "environments": [],
+    "environments": [
+      {
+        "name": "env1",
+        "description": "",
+        "active": true,
+        "properties": []
+      }
+    ],
     "themes": [],
     "auth": {
       "enabled": false,
       "mockedUserAccounts": []
+    },
+    "defaultEnvironment": {
+      "active": false
     }
   }
 }
